@@ -1,0 +1,60 @@
+﻿body          { background-color:#003653; color: #fff; font-family: Arial; font-size:12px; text-align: center; margin:0; padding:0; height:100%; width:100%;}
+html          { overflow-y:scroll;} 
+div           { margin: 0 auto; }
+p             { margin-top: 0.1em; margin-bottom: 0em; }
+button:focus  {outline:none !important;}
+
+ul { list-style: square url("../images/square.png"); margin-top:0; padding:0 }
+li { margin-left:12px; padding:0; margin-bottom:8px; }
+
+button:focus { outline:0; }
+a img        { text-decoration: none; border: 0px; }
+
+a.odnosnik:visited  { color: #f1be4c; text-decoration: none; }
+a.odnosnik:link     { color: #f1be4c; text-decoration: none; }
+a.odnosnik:hover    { color: #ffd200; }
+
+a.white:visited  { color: #fff; text-decoration: none; }
+a.white:link     { color: #fff; text-decoration: none; }
+a.white:hover    { border-bottom: 1px solid #fff; color: #fff; position: relative; }
+
+.bg  { height:100%; width:100%; margin:0; padding:0; background-image: url(../images/background.jpg); background-repeat:no-repeat; background-position: top center; background-size: cover; }
+.top { width:100%; height:75px; background-color:#000; text-align:left; border-bottom-style: solid; border-width:1px; border-color:#002343; }
+
+.top_bgg {width:348px; height:40px; padding:5px; margin-top:45px; font-size:16px; text-align:right; }
+
+.top_info {width:960px; height:30px; margin-top:15px; font-size:18px; }
+
+.top_frame {width:960px; height:75px }
+.top_menu {float:right; width:400px; text-align:right; margin-top:28px;}
+.link {width:100px; display:inline; font-size:14px;}
+
+.main {width:960px; border-style: solid; border-width:0px; border-color:#fff}
+
+.main_frame_top {height:34px; width:960px; border-style: solid; border-width:0px; border-color:#fff; background-image: url(../images/top.png); background-repeat:no-repeat;}
+.main_frame {height:520px; width:960px; text-align:left; border-style: solid; border-width:0px; border-color:#fff; margin-top:0px; background-image: url(../images/mid.png); background-repeat:no-repeat;}
+.main_frame_bot {margin-bottom:9px; height:34px; width:960px; border-style: solid; border-width:0px; border-color:#fff; margin-top:0px; background-image: url(../images/bot.png); background-repeat:no-repeat;}
+
+.main_left {height: 520px; width:419px; float:left; margin-left:34px; margin-right:17px; text-align: center;}
+.main_left_text {margin-top:30px; text-align: justify}
+
+.main_right {height: 520px; width:419px; float:right; margin-left:17px; margin-right:34px; text-align: center;}}
+.main_right_bot {margin-top:30px; text-align: left}
+
+.tokens_bar {margin-top:13px; height:55px; padding-bottom:15px; width:419px; border-bottom-style: solid; border-width:0px; border-color:#fff }
+.badges_bar {margin-top:15px; height:30px; padding-bottom:20px; width:419px; border-bottom-style: solid; border-width:1px; border-color:#fff }
+.token {height:55px; width:55px; float:left;}
+.badge{height:30px; width:30px; float:left; margin-top:-6px}
+
+.stats {margin-top:10px; height:55px; width:419px; font-size:18px; font-weight:bold}
+
+.login {width:340px; height:400px; padding-top:15px; text-align: justify}
+.input {width:317px; padding:15px; outline: none; border: 0px; margin-top:5px; text-align:center; font-size:16px}
+.textarea {width:517px; height:200px; padding:15px; outline: none; border: 0px; margin-top:5px; text-align:center; font-size:16px}
+.button {width:347px; padding:15px; outline: none; background-color:#f1be4c; border: 0px; margin-top:5px; text-align:center; font-size:16px; font-weight:bold}
+
+.input2 {width:500px; padding:15px; outline: none; border: 0px; margin-top:5px; text-align:left; font-size:16px}
+.textarea2 {width:500px; height:200px; padding:15px; outline: none; border: 0px; margin-top:5px; text-align:left; font-size:16px; font-family:Arial; resize: none}
+.button2 {width:147px; padding:8px; outline: none; background-color:#f1be4c; float:right; border: 0px; margin-top:5px; text-align:center; font-size:16px; font-weight:bold}
+
+.foot {font-size:11px;margin-bottom:98px;}
